@@ -11,8 +11,9 @@
 }
 
 .login{
-    border: 1px solid black;
-    padding: 10px 40px;
+    margin-top: 40px;
+    border: 2px solid rgb(133, 131, 131);
+    width: 350px;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
@@ -31,22 +32,33 @@ input{
     width: 250px;
     font-size: 12px;
     padding: 10px;
+    border-radius: 4px;
+    background-color: #d6d4d4;
+    border: 1px solid rgb(107, 107, 107);
 }
 
 .btn-masuk{
     background-color: rgb(91, 91, 235);
     font-size: 16px;
     padding: 5px 113px;
-    border: 1px solid black;
+    border: 1px solid rgb(107, 107, 107);
     border-radius: 6px;
     color: #eaeaea;
+}
+
+.btn-masuk:hover{
+    background-color: rgb(75, 75, 194);
+}
+
+.btn-masuk:active{
+    scale: 0.95;
 }
 
 .atau{
     display: flex;
     align-items: center;
     gap: 10px;
-    margin: 5px;
+    margin-top: 15px;
 }
 
 .facebook{
@@ -55,16 +67,19 @@ input{
 }
 
 .register {
+    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    border: 1px solid black;
-    padding: 15px 40px;
+    border: 2px solid rgb(107, 107, 107);
     border-radius: 6px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: large;
 }
 
-.lupa, .register > a, .footer > .hyperlink > a{
+.lupa, .register > p > a, .footer > .hyperlink > a{
     text-decoration: none;
 }
 
@@ -83,6 +98,10 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer{
+    margin-top: 25px;
 }
 
 .footer, .footer > .hyperlink > a{
