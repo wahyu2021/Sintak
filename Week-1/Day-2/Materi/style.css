@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+}
+
+/* p {
+    color: red;
+    font-size: 40px;
+} */
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.kotak-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+.kotak-2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.judul{
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-login {
+    background-color: cyan;
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: all ease 0.2s
+}
+
+.btn-login:hover{
+    background-color: rgb(3, 206, 206);
+}
+
+.btn-login:active{
+    scale: 0.95;
+}
