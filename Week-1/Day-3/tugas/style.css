@@ -6,13 +6,17 @@
 }
 
 body{
-    background-color: #b6b4b4;
+    background-color: #565379;
 }
 
 .wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url(Assets/logo.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header{
@@ -150,12 +154,17 @@ body{
 .footer{
     margin-top: 30px;
     width: 100%;
-    height: 50px;
+    height: 80px;
     background-color: rgb(85, 85, 143);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
 }
 
 .footer .socials{
+    margin-top: 15px;
     width: 100%;
     justify-content: space-around;
     display: flex;
@@ -174,4 +183,8 @@ body{
 
 .footer .socials a:hover{
     color: #fff;
+}
+
+.footer .copy {
+    color: #a1a1a1;
 }
